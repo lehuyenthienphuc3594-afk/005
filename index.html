@@ -4,22 +4,22 @@
   <meta charset="UTF-8">
   <title>Ask March 7th (AI)</title>
   <link rel="stylesheet" href="body.css">
-  <!-- PIXI core -->
+
+  <!-- Thư viện PixiJS -->
   <script src="https://unpkg.com/pixi.js/dist/browser/pixi.min.js"></script>
-  <!-- Live2D display -->
-  <script src="https://unpkg.com/pixi-live2d-display/dist/pixi-live2d-display.min.js"></script>
+  <!-- Thư viện Pixi Live2D -->
+  <script src="https://unpkg.com/pixi-live2d-display/dist/index.min.js"></script>
 </head>
 <body>
   <h2>Ask March 7th (AI)</h2>
-  
-  <!-- Chat box -->
-  <div id="chat" style="width: 500px; height: 250px; border: 1px solid #000; margin-bottom: 10px; overflow-y: auto;"></div>
-  <input id="input" type="text" placeholder="Type your question..." style="width:400px;"/>
+  <div id="chat"></div>
+  <input id="input" type="text" placeholder="Type your question..." />
   <button onclick="ask()">Send</button>
 
-  <!-- Live2D canvas -->
+  <!-- Canvas hiển thị Live2D -->
   <canvas id="live2d" width="400" height="600"></canvas>
 
+  <!-- JS -->
   <script src="JS.js"></script>
 </body>
 </html>
