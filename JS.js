@@ -23,9 +23,7 @@ async function ask() {
       body: JSON.stringify({ message: q })
     });
 
-    if (!response.ok) {
-      throw new Error("Network error: " + response.status);
-    }
+    if (!response.ok) throw new Error("Network error: " + response.status);
 
     const data = await response.json();
     const ans = data.reply;
