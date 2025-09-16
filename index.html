@@ -5,10 +5,10 @@
   <title>Ask March 7th (AI)</title>
   <link rel="stylesheet" href="body.css">
 
-  <!-- Thư viện PixiJS -->
-  <script src="https://unpkg.com/pixi.js/dist/browser/pixi.min.js"></script>
-  <!-- Thư viện Pixi Live2D -->
-  <script src="https://unpkg.com/pixi-live2d-display/dist/index.min.js"></script>
+  <!-- Dùng PixiJS v6 -->
+  <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.10/dist/browser/pixi.min.js"></script>
+  <!-- Live2D plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.4.0/dist/index.min.js"></script>
 </head>
 <body>
   <h2>Ask March 7th (AI)</h2>
@@ -16,10 +16,9 @@
   <input id="input" type="text" placeholder="Type your question..." />
   <button onclick="ask()">Send</button>
 
-  <!-- Canvas hiển thị Live2D -->
+  <!-- Canvas cho Live2D -->
   <canvas id="live2d" width="400" height="600"></canvas>
 
-  <!-- JS -->
   <script src="JS.js"></script>
 </body>
 </html>
