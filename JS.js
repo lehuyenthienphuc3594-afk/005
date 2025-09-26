@@ -28,10 +28,10 @@ async function ask() {
     const data = await response.json();
     const ans = data.reply;
 
-    document.getElementById("chat").innerHTML += "<b>orange:</b> " + ans + "<br>";
+    document.getElementById("chat").innerHTML += "<b>TP:</b> " + ans + "<br>";
     document.getElementById("input").value = "";
   } catch (err) {
     console.error(err);
-    document.getElementById("chat").innerHTML += "<b>orange:</b> (Error: Could not reach AI)<br>";
+    document.getElementById("chat").innerHTML += "<b>TP:</b> (Error: Could not reach AI)<br>";
   }
 }
