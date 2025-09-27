@@ -1,13 +1,13 @@
 {
 	"Version": 3,
 	"FileReferences": {
-		"Moc": "March 7th.moc3",
+		"Moc": "March7th.moc3",
 		"Textures": [
-			"March 7th.4096/texture_00.png",
-			"March 7th.4096/texture_01.png"
+			"March7.4096/texture_00.png",
+			"March7.4096/texture_01.png"
 		],
-		"Physics": "March 7th.physics3.json",
-		"DisplayInfo": "March 7th.cdi3.json",
+		"Physics": "March7.physics3.json",
+		"DisplayInfo": "March7.cdi3.json",
 		"Expressions": [
 			{
 				"Name": "捂脸",
